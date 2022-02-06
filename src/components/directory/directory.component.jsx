@@ -6,7 +6,7 @@ import MenuItem from "../menu-item/menuItem.component";
 
 const Directory = ({sections}) => {
     return ( 
-        <div className="directoryMenu flex flex-row justify-center m-14 items-center flex-wrap">
+        <div className="directoryMenu flex flex-row justify-center m-12 items-center flex-wrap">
             {sections.map(({id, ...otherSectionComponent}) => (
                 <MenuItem key={id} {...otherSectionComponent}/>
             ))}
