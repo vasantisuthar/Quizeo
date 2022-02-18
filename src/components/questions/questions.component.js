@@ -5,6 +5,7 @@ const Questions = ({item, key}) => {
     return ( 
         <div>
             <p>{question}</p>
+            <button>Next</button>
         </div>
      );
 }
