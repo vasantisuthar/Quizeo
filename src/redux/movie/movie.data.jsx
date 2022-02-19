@@ -17,47 +17,47 @@ const movie_data = {
             },
             {
                 id:2,
-                question:"What planet was the Soul Stone hidden on in the movie Infinity War?",
+                question:"Who was the last holder of the Space Stone before Thanos claims it for his Infinity Gauntlet?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": "Thor",
+                    "b": "Loki",
+                    "c": "The Collector",
+                    "d": "Tony stark"
                 },
-                answer : "Vormir"
+                answer : "Loki"
             },
             {
                 id:3,
-                question:"What is the real name of the Incredible Hulk?",
+                question:"What is the real name of the Black Panther?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a":"T'Challa",
+                    "b": "M'Baku",
+                    "c": "N'Jadaka",
+                    "d": "N'Jobu"
                 },
-                answer : "Bruce Banner"
+                answer : "T'Challa"
             },
             {
                 id:4,
-                question:"Who took out Tony Stark's parents?",
+                question:"Who is killed by Loki in the Avengers?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": "Maria Hill",
+                    "b": "Nick Fury",
+                    "c": "Agent Coulson",
+                    "d": "Doctor Erik Selvig"
                 },
-                answer : "Winter Soldier"
+                answer : "Agent Coulson"
             },
             {
                 id:5,
-                question:"How many rings does Captain America's shield have?",
+                question:"What is the name of Thor’s hammer?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": "Vanir",
+                    "b": "Mjolnir",
+                    "c": "Aesir",
+                    "d": "Norn"
                 },
-                answer : 2
+                answer : "Mjolnir"
             }
         ]
     },
@@ -71,10 +71,10 @@ const movie_data = {
                     id:1,
                     question:" How long did the professor take to prepare for the robbery?",
                     options:{
-                        "a": 3,
-                        "b": 2,
-                        "c": 4,
-                        "d": 5
+                        "a": "months",
+                        "b": "weeks",
+                        "c": "days",
+                        "d": "years"
                     },
                     answer : "years"
                 },
@@ -82,32 +82,32 @@ const movie_data = {
                     id:2,
                     question:"How many people did the professor recruit to help him carry out his plan?",
                     options:{
-                        "a": 3,
-                        "b": 2,
-                        "c": 4,
-                        "d": 5
+                        "a": "seven",
+                        "b": "six",
+                        "c": "eight",
+                        "d": "nine"
                     },
                     answer : "eight"
                 },
                 {
                     id:3,
-                    question:"Inspector Raquel's mother suffered from which medical condition?",
+                    question:"In which country does Raquel track the Professor after the first heist?",
                     options:{
-                        "a": 3,
-                        "b": 2,
-                        "c": 4,
-                        "d": 5
+                        "a": "Philippines",
+                        "b": "Thailand",
+                        "c": "Portugal",
+                        "d": "Clark"
                     },
-                    answer : "Alzheimer's disease"
+                    answer : "Philippines"
                 },
                 {
                     id:4,
                     question:"The whole idea and plan of the heist was whose?",
                     options:{
-                        "a": 3,
-                        "b": 2,
-                        "c": 4,
-                        "d": 5
+                        "a": "The professor's father",
+                        "b": "Berlin",
+                        "c": "Professor",
+                        "d": "Palermo"
                     },
                     answer : "The professor's father"
                 },
@@ -115,10 +115,10 @@ const movie_data = {
                     id:5,
                     question:"How much money were the Robbers able to print?",
                     options:{
-                        "a": 3,
-                        "b": 2,
-                        "c": 4,
-                        "d": 5
+                        "a": "976 million Euros",
+                        "b": "956 million Euros",
+                        "c": "967 million Euros",
+                        "d": "984 million Euros"
                     },
                     answer : "984 million Euros"
                 }
@@ -145,45 +145,45 @@ const movie_data = {
                 id:2,
                 question:"What is the name of Joey’s character in the commercial for opening milk cartons?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": "Mak",
+                    "b": "Mark",
+                    "c": "Kevin",
+                    "d": "Drake"
                 },
                 answer : "Kevin"
             },
             {
                 id:3,
-                question:"What is Ross’ profession?",
+                question:"What is the name of Joey’s acting agent?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": "Andrea",
+                    "b": "Estelle",
+                    "c": "Martha",
+                    "d": "Carole"
                 },
-                answer : "Palaeontologist"
+                answer : "Estelle"
             },
             {
                 id:4,
-                question:"Where does Ross spend the night with Emily after they first meet?",
+                question:"Phoebe has a twin sister. What's her name?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": "Ursula",
+                    "b": "Scalet",
+                    "c": "Sharon",
+                    "d": "Rita"
                 },
-                answer : "A bed and breakfast in Vermont"
+                answer : "Ursula"
             },
             {
                 id:5,
-                question:"What song does Ross’ monkey, Marcel, keep playing?",
+                question:"Who's wearing this turkey on their head?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": "Pheobe",
+                    "b": "Joey",
+                    "c": "Monica",
+                    "d": "Chandler"
                 },
-                answer : "‘The Lion Sleeps Tonight‘ by The Tokens"
+                answer : "Monica"
             }
         ]
     },
@@ -196,10 +196,10 @@ const movie_data = {
                 id:1,
                 question:"How many contestants show up to play Squid Game?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": 453,
+                    "b": 456,
+                    "c": 458,
+                    "d": 452
                 },
                 answer : 456
             },
@@ -207,10 +207,10 @@ const movie_data = {
                 id:2,
                 question:"What shape did the old man carve in the Honeycomb challenge?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": "triangle",
+                    "b": "circle",
+                    "c": "star",
+                    "d": "umbrella"
                 },
                 answer : "star"
             },
@@ -218,10 +218,10 @@ const movie_data = {
                 id:3,
                 question:"Who was Hwang Jun-ho looking for?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": "His younger brother",
+                    "b": "His mother",
+                    "c": "His father",
+                    "d": "His older brother"
                 },
                 answer : "His older brother"
             },
@@ -229,23 +229,23 @@ const movie_data = {
                 id:4,
                 question:"How many games are in the competition?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
+                    "a": 6,
+                    "b": 7,
+                    "c": 8,
                     "d": 5
                 },
                 answer : 6
             },
             {
                 id:5,
-                question:"Where are the contestants held?",
+                question:"Why did Gi-Hun give his daughter a gift?",
                 options:{
-                    "a": 3,
-                    "b": 2,
-                    "c": 4,
-                    "d": 5
+                    "a": "It was her birthday",
+                    "b": "It was christmas",
+                    "c": "It was New Year",
+                    "d": "It was a festival"
                 },
-                answer : "An Island in South Korea"
+                answer : "It was her birthday"
             }
         ]
     }
