@@ -1,5 +1,5 @@
 import { QuestionTypes } from "./question-types"
-
+import { calculateScore } from "./question.utils"
 const INITIAL_STATE ={
     questionNo : 0
 }
