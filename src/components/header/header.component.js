@@ -6,7 +6,7 @@ const Header = () => {
     return ( 
         <div className="headerContainer">
             <Link to="/">
-            <h1 className="text-5xl font-bold my-8">Quizeo</h1>
+            <h1 className="text-5xl font-bold mt-6 mb-14">Quizeo</h1>
             </Link>
         </div>
      );
