@@ -2,7 +2,8 @@ import movie_data from "./movie.data";
 import { QuestionTypes } from "../questions/question-types";
 import { calculateScore } from "../questions/question.utils";
 const INITIAL_STATE = {
-    collection:movie_data
+    collection:movie_data,
+    score:0
 }
 
 const movieReducer = (state = INITIAL_STATE,action) =>{
@@ -10,7 +11,9 @@ const movieReducer = (state = INITIAL_STATE,action) =>{
         case QuestionTypes.ADD_SCORE:
             return{
                 ...state,
-                score: calculateScore(state.collection, action.payload)
+                score: calculateScore(state.score, action.payload)
+                
+
             }
         default:
             return {...state}

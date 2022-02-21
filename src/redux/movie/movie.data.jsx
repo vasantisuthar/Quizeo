@@ -137,7 +137,7 @@ const movie_data = {
                     "a": 3,
                     "b": 2,
                     "c": 4,
-                    "d": 5
+                    "d": 7
                 },
                 answer : 7
             },
