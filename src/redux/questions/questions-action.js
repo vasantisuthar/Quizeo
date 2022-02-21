@@ -8,3 +8,7 @@ export const addScore = (answer) => ({
     type:QuestionTypes.ADD_SCORE,
     payload : answer
 })
+
+export const showModel = () => ({
+    type: QuestionTypes.SHOW_MODEL
+})

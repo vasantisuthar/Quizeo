@@ -1,7 +1,7 @@
 import { QuestionTypes } from "./question-types"
-import { calculateScore } from "./question.utils"
 const INITIAL_STATE ={
-    questionNo : 0
+    questionNo : 0,
+
 }
 
 const questionReducer = (state = INITIAL_STATE, action) => {

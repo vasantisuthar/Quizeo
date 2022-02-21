@@ -3,6 +3,7 @@ import { QuestionTypes } from "../questions/question-types";
 import { calculateScore } from "../questions/question.utils";
 const INITIAL_STATE = {
     collection:movie_data,
+    hidden: true,
     score:0
 }
 
@@ -12,8 +13,11 @@ const movieReducer = (state = INITIAL_STATE,action) =>{
             return{
                 ...state,
                 score: calculateScore(state.score, action.payload)
-                
-
+            }
+        case QuestionTypes.SHOW_MODEL:
+            return{
+                ...state,
+                hidden : !state.hidden
             }
         default:
             return {...state}
