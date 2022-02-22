@@ -12,3 +12,11 @@ export const addScore = (answer) => ({
 export const showModel = () => ({
     type: QuestionTypes.SHOW_MODEL
 })
+
+export const setScore = () => ({
+    type:QuestionTypes.SET_SCORE
+})
+
+export const setQuestionNo = () => ({
+    type:QuestionTypes.SET_QUESTION_NO
+})

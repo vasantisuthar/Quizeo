@@ -1,13 +1,15 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
+import {useRef} from 'react';
 import { ScoreModel } from "../../pages/score-page/score.component";
 import { addScore,showModel } from "../../redux/questions/questions-action";
 import { increaseQuestionNo } from "../../redux/questions/questions-action";
 
 const Questions = (collection) => {
    
-    const counter = useSelector((state) => state.question.questionNo);
+    const counter = useSelector((state) => state.movie.questionNo);
     const hidden  = useSelector((state) => state.movie.hidden);
+    let btnRef = useRef();
     const dispatch = useDispatch();
     return ( 
         <div className="flex flex-col justify-center items-center mx-9 text-center">
@@ -24,12 +26,15 @@ const Questions = (collection) => {
                         
                         <div className="text-center mx-4">
                             {Object.keys(collection[item].questions[counter].options).map((option, i) =>(
-                                <button className="text-white bg-white m-4 py-3 w-52 text-center font-medium uppercase text-lg rounded-full  bg-blue-500 shadow-lg shadow-cyan-500/50 ... hover:bg-blue-600 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 ..."
+                                <button ref={btnRef} className="text-white m-4 py-3 w-52 text-center font-medium uppercase text-lg rounded-full  bg-blue-500 shadow-lg shadow-cyan-500/50 ... hover:bg-blue-600  active:bg-white-700 focus:outline-none focus:ring focus:ring-blue-300 ..."
                                 value={collection[item].questions[counter].options[option]}
                                 // eslint-disable-next-line no-undef
+                                
                                 onClick={(e) => {
                                     let obj = {answer :e.target.value, correct : collection[item].questions[counter].answer}
                                     dispatch(addScore(obj))
+                                    if(btnRef.current){
+                                        btnRef.current.setAttribute("disabled", "disabled")}
                                     }}
                                 >
                                 {collection[item].questions[counter].options[option]}
@@ -45,7 +50,7 @@ const Questions = (collection) => {
                     </div>
                 </div>
             ))}
-            {hidden ? null: <ScoreModel/>}
+            {hidden ? null: <ScoreModel questionNo = {counter}/>}
         </div>
     );
 }
