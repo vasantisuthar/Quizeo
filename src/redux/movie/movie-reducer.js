@@ -1,4 +1,4 @@
-import movie_data from "./movie.data";
+import movie_data from "../../data/movie.data";
 import { QuestionTypes } from "../questions/question-types";
 import { calculateScore } from "../questions/question.utils";
 const INITIAL_STATE = {
