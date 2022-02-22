@@ -42,7 +42,7 @@ const Questions = (collection) => {
                             ))}
                             <br></br>
                             {counter === collection[item].questions.length-1 ?  
-                            <button className="m-7 bg-green-500 w-36 rounded-lg font-medium p-2" onClick= {() => dispatch(showModel())} >submit</button> :
+                            <button className="m-7 bg-green-500 w-36 rounded-lg font-medium p-2" onClick= {() => {dispatch(addScore(obj));dispatch(showModel())}} >submit</button> :
                             <button type="button" className="m-7 bg-green-500 w-36 rounded-lg font-medium p-2" onClick={() => {dispatch(addScore(obj)); dispatch(increaseQuestionNo())}}>Next</button>}
                         </div>
                     </div>

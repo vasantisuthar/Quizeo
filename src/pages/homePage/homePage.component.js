@@ -10,15 +10,13 @@ class Home  extends React.Component{
     }
         
     render(){
-
-    
-    return ( 
+        return ( 
         <div>
             <Directory/>
         </div>
-     );
+    );
 
     }
 }
- 
+
 export default Home;

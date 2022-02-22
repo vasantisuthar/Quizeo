@@ -19,8 +19,7 @@ export const ScoreModel = () => {
                         dispatch(setScore());
                         dispatch(setQuestionNo());
                         }}>Play again</button>
-
-            </div>
+                </div>
             {console.log(score)}
         </div>
     )
