@@ -3,9 +3,12 @@ import {Route, Routes} from 'react-router-dom';
 import Header from './components/header/header.component';
 import Home from './pages/homePage/homePage.component';
 import MoviePage from './pages/moviePage/moviePage.component';
+
+
 import './App.css';
 
-function App() {
+const App = () => {
+ 
   return (
     <div className="App">
       <Header/>
@@ -15,6 +18,7 @@ function App() {
       </Routes>
     </div>
   );
+  
 }
 
 export default App;
