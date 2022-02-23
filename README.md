@@ -1,6 +1,11 @@
+# Quizeo
+<img width="926" alt="2022-02-23" src="https://user-images.githubusercontent.com/63599802/155212693-e080cdc9-fde5-4074-a47f-1f68574038ea.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
