@@ -8,7 +8,6 @@ class Home  extends React.Component{
         store.dispatch(setScore());
         store.dispatch(setQuestionNo());
     }
-        
     render(){
         return ( 
         <div>

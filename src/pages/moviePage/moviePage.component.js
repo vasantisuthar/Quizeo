@@ -1,5 +1,4 @@
 import React from "react";
-import _ from 'lodash';
 import { useParams } from "react-router-dom";
 import { useSelector } from 'react-redux'
 import { selectMovieDataSection } from "../../redux/movie/movieSelector";
